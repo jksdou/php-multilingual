@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+.container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav {
+  height: 30px;
+  line-height: 30px;
+  cursor: default;
+}
+.nav .nav-item {
+  cursor: default;
+  display: inline;
+}
+.nav .nav-item:hover {
+  color: #00f;
+}
+
+.article {
+  min-height: 300px;
+}
+.footer {
+  position: relative;
+  line-height: 30px;
+}
+.footer .nav {
+  text-align: center;
+  background-color: #DBDFE2;
+}
+.footer .nav-item {
+  color: #fff;
+}
+
+.language {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.language .list {
+  border: 1px solid #ddd;
+  display: none;
+}
+.language a {
+  color: #333;
+  display: block;
+}
+.language a:hover {
+  background-color: #ddd;
+}
+.language .title {
+  padding-right: 5px;
+  text-align: right;
+}
+.language:hover .list {
+  display: block;
+}
